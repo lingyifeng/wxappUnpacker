@@ -9,11 +9,11 @@
 4. export PATH=$PATH:$NODE_HOME/bin 
 5. export NODE_PATH=$NODE_HOME/lib/node_modules
 6. 退出vim
-> //使环境生效
+-  //使环境生效
 8. source /etc/profile
 9. cd 到拉去代码的根目录 下面有 wuConfig.js  wuJs.js  wuLib.js  wuRestoreZ.js  wuWxapkg.js  wuWxml.js  wuWxss.js
 10. 然后 npm install
-> 就可以解包了
+-  就可以解包了
 
 # 分包功能
 
