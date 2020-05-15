@@ -3,6 +3,17 @@
 - 本项目无法适用于 2018 年前开发的小程序(如最后更新时间为 2017.7.12), 请过早的小程序不用再尝试了
 - 本项目完全基于 [wxappUnpacker](https://github.com/qwerty472123/wxappUnpacker "wxappUnpacker") 改进的。
 
+下载 nodejs https://nodejs.org/en/ 到linux服务器 解压配置环境
+vim /etc/profile 添加 /xxx/为解压包绝对路径
+export NODE_HOME=/xxx/node-v12.16.3-linux-x64
+export PATH=$PATH:$NODE_HOME/bin 
+export NODE_PATH=$NODE_HOME/lib/node_modules
+退出vim
+//使环境生效
+source /etc/profile
+cd 到拉去代码的根目录 下面有 wuConfig.js  wuJs.js  wuLib.js  wuRestoreZ.js  wuWxapkg.js  wuWxml.js  wuWxss.js
+然后 npm install
+然后就可以解包了
 
 # 分包功能
 
@@ -23,3 +34,8 @@ TIP
 │   └── master-xxx             # ../master-xxx 就是这个目录
 │       ├── app.json
 ```
+
+
+
+
+
