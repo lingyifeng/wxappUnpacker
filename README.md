@@ -4,8 +4,8 @@
 - 本项目完全基于 [wxappUnpacker](https://github.com/qwerty472123/wxappUnpacker "wxappUnpacker") 改进的。
 
 1.  下载 nodejs https://nodejs.org/en/ 到linux服务器 解压配置环境
-2.  vim /etc/profile 添加 /xxx/为解压包绝对路径
-3.  export NODE_HOME=/xxx/node-v12.16.3-linux-x64
+2.  vim /etc/profile 
+3.  添加  export NODE_HOME=/xxx/node-v12.16.3-linux-x64      /xxx/为解压包绝对路径
 4. export PATH=$PATH:$NODE_HOME/bin 
 5. export NODE_PATH=$NODE_HOME/lib/node_modules
 6. 退出vim
